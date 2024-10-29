@@ -6,6 +6,9 @@
     <title>About Us - Trolex Investment</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <style>
+	html {
+	    font-size: 1.5vw; /* Adjusts according to viewport width */
+	}
         body {
             font-family: 'Great Vibes', cursive;
             margin: 0;
@@ -21,8 +24,8 @@
             text-align: center;
         }
         header img {
-            width: 700px; 
-			height: 350px;
+            width: 450px; 
+	    height: 350px;
         }
         nav ul {
             list-style: none;
@@ -62,6 +65,30 @@
         }
         footer p {
             margin: 0;
+        }
+	.container {
+		width: 90%; /* Takes up 90% of the viewport width */
+		padding: 2vw; /* Padding adjusts with screen width */
+		margin: auto;
+	}
+	img {
+	   max-width: 100%;
+	   height: auto; /* Keeps images proportional */
+	}
+	@media (max-width: 600px) {
+            html {
+		font-size: 3vw; /* Slightly larger for readability on small screens */
+	}
+        .header-text {
+            font-size: 2rem; /* Adjust header text */
+         }
+	}
+	@media (min-width: 1200px) {
+	    html {
+		font-size: 1vw;
+	}
+       .header-text {
+            font-size: 3rem;
         }
     </style>
 </head>
