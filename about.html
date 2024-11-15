@@ -6,18 +6,18 @@
     <title>About Us - Trolex Investment</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <style>
-	html {
-	    font-size: 1.5vw; /* Adjusts according to viewport width */
-	}
+        html {
+            font-size: 1.5vw; /* Adjusts according to viewport width */
+        }
         body {
             font-family: 'Great Vibes', cursive;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
-	body {
-	    font-family: 'Arial', sans-serif;
-	}
+        body {
+            font-family: 'Arial', sans-serif;
+        }
         header {
             background: linear-gradient(to right, lime, #20b2aa); /* Lime blending with Bluish Green */
             padding: 20px;
@@ -25,7 +25,7 @@
         }
         header img {
             width: 450px; 
-	    height: 350px;
+            height: 350px;
         }
         nav ul {
             list-style: none;
@@ -48,14 +48,37 @@
             margin-top: 40px;
             letter-spacing: 1px;
         }
-	h1, h2, h3, .header-text {
-		font-family: 'Playfair Display', serif;
-	}   
+        h1, h2, h3, .header-text {
+            font-family: 'Playfair Display', serif;
+        }   
         p {
             font-size: 24px;
             margin: 20px 40px;
             color: #333;
             text-align: justify;
+        }
+        .table-container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #1E90FF;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
         }
         footer {
             text-align: center;
@@ -66,29 +89,30 @@
         footer p {
             margin: 0;
         }
-	.container {
-		width: 90%; /* Takes up 90% of the viewport width */
-		padding: 2vw; /* Padding adjusts with screen width */
-		margin: auto;
-	}
-	img {
-	   max-width: 100%;
-	   height: auto; /* Keeps images proportional */
-	}
-	@media (max-width: 600px) {
+        .container {
+            width: 90%; /* Takes up 90% of the viewport width */
+            padding: 2vw; /* Padding adjusts with screen width */
+            margin: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto; /* Keeps images proportional */
+        }
+        @media (max-width: 600px) {
             html {
-		font-size: 3vw; /* Slightly larger for readability on small screens */
-	}
-        .header-text {
-            font-size: 2rem; /* Adjust header text */
-         }
-	}
-	@media (min-width: 1200px) {
-	    html {
-		font-size: 1vw;
-	}
-       .header-text {
-            font-size: 3rem;
+                font-size: 3vw; /* Slightly larger for readability on small screens */
+            }
+            .header-text {
+                font-size: 2rem; /* Adjust header text */
+            }
+        }
+        @media (min-width: 1200px) {
+            html {
+                font-size: 1vw;
+            }
+            .header-text {
+                font-size: 3rem;
+            }
         }
     </style>
 </head>
@@ -101,7 +125,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-		<li><a href="companies worked with.html">Companies We Worked With</a></li>
             </ul>
         </nav>
     </header>
@@ -115,6 +138,66 @@
 
     <h2>Vision</h2>
     <p>To become the leading immigration and labor consultancy in Botswana, known for exceptional service and commitment to clients' success.</p>
+
+    <h2>Companies We Worked With</h2>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Freyssinet Botswana</strong><br>
+                    Michael Hildyard<br>
+                    +2782564060<br>
+                    Director
+                </td>
+                <td>2018-2019</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Minopex Botswana</strong><br>
+                    PO Box 1307, Letlhakane<br>
+                    Att: Sue Hughes - Administrator
+                </td>
+                <td>2015-2018</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Sandvik Botswana</strong><br>
+                    PO Box 33, Francistown<br>
+                    Goitse Maje - Administrator<br>
+                    +267-72767368
+                </td>
+                <td>2015 to date</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Lucara Mine</strong><br>
+                    PO Box 44, Letlhakane
+                </td>
+                <td>2016 - 2019</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Lanzenbyn Holdings</strong><br>
+                    HR Manager<br>
+                    Batsho Mpenya
+                </td>
+                <td>2015 - 2019</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Tomra Sorting Solutions Pty Ltd</strong><br>
+                    Wouter Cartens - Service Manager<br>
+                    Direct dial: +27-11-010-0300<br>
+                    Mobile: +27 66 481 0504
+                </td>
+                <td>2019 to date</td>
+            </tr>
+        </table>
+    </div>
 
     <footer>
         <p>&copy; 2024 Trolex Investment</p>
