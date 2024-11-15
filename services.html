@@ -12,9 +12,9 @@
             padding: 0;
             line-height: 1.6;
         }
-	body {
-	    font-family: 'Arial', sans-serif;
-	}
+        body {
+            font-family: 'Arial', sans-serif;
+        }
         header {
             background: linear-gradient(to right, lime, turquoise);
             padding: 20px;
@@ -45,9 +45,9 @@
             margin-top: 40px;
             letter-spacing: 1px;
         }
-	h1, h2, h3, .header-text {
-		font-family: 'Playfair Display', serif;
-	}    
+        h1, h2, h3, .header-text {
+            font-family: 'Playfair Display', serif;
+        }    
         .service {
             margin: 20px;
             padding: 20px;
@@ -100,10 +100,10 @@
             border: 1px solid #888;
             width: 80%;
         }
-		.modal-content h2 {
+        .modal-content h2 {
             font-size: 2em;
         }
-		.modal-content p {
+        .modal-content p {
             font-size: 1.5em; 
         }
         .close {
@@ -121,18 +121,15 @@
         html {
             font-size: 1.5vw;
         }
-
         .container {
             width: 90%;
             padding: 2vw;
             margin: auto;
         }
-
         img {
             max-width: 100%;
             height: auto;
         }
-
         @media (max-width: 600px) {
             html {
                 font-size: 3vw;
@@ -141,7 +138,6 @@
                 font-size: 2rem;
             }
         }
-
         @media (min-width: 1200px) {
             html {
                 font-size: 1vw;
@@ -174,105 +170,64 @@
     </div>
 
     <div class="service">
-        <h2>2. Labour Hiring</h2>
-        <p>We assist with hiring and handle all human resource functions on behalf of the company.</p>
-        <span class="read-more" onclick="openModal('modal2')">Read More</span>
-    </div>
-
-    <!-- Additional Services -->
-    <div class="service">
-        <h2>12. Engineering Registration Board (ERB)</h2>
-        <p>We assist with the registration of engineers to enable them to practice in Botswana.</p>
-        <span class="read-more" onclick="openModal('modal12')">Read More</span>
+        <h2>17. Short-Term Permits</h2>
+        <p>Commonly known as emergency work permits.</p>
+        <span class="read-more" onclick="openModal('modal17')">Read More</span>
     </div>
 
     <div class="service">
-        <h2>13. Transportation</h2>
-        <p>We provide transportation services for employees to and from work for companies.</p>
-        <span class="read-more" onclick="openModal('modal13')">Read More</span>
+        <h2>18. Long-Term Permits</h2>
+        <p>Permits for foreigners employed by local companies.</p>
+        <span class="read-more" onclick="openModal('modal18')">Read More</span>
     </div>
 
     <div class="service">
-        <h2>14. VISAS Applications</h2>
-        <p>We apply for visas for applicants from countries that require visas for entry.</p>
-        <span class="read-more" onclick="openModal('modal14')">Read More</span>
-    </div>
-
-    <div class="service">
-        <h2>15. Exemptions Application</h2>
-        <p>We assist with exemptions applications for roles exempt from the permit application process.</p>
-        <span class="read-more" onclick="openModal('modal15')">Read More</span>
-    </div>
-
-    <div class="service">
-        <h2>16. Waivers Issuing</h2>
-        <p>We facilitate the issuing of waivers for those eligible for residence or work permit tallies.</p>
-        <span class="read-more" onclick="openModal('modal16')">Read More</span>
-    </div>
-
-    <!-- Modal Structure -->
-    <!-- Modal for Immigration Application Services -->
-	<div id="modal1" class="modal">
-	    <div class="modal-content">
-	        <span class="close" onclick="closeModal('modal1')">&times;</span>
-            <h2>Immigration Application Services</h2>
-            <p><strong>Permanent Residence:</strong> We assist with the application for permanent residence for immigrants seeking to stay in Botswana permanently.</p>
-            <p><strong>Botswana Qualification Authority (BQA):</strong> We assist in evaluating certificates for immigrants and those planning to work in Botswana who studied abroad.</p>
-        </div>
-    </div>
-
-    <div id="modal2" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal2')">&times;</span>
-            <h2>Labour Hiring</h2>
-            <p>We assist with hiring on behalf of companies, managing all HR functions to support business operations.</p>
-        </div>
-    </div>
-
-    <!-- Additional Modals -->
-    <div id="modal12" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal12')">&times;</span>
-            <h2>Engineering Registration Board (ERB)</h2>
-            <p>We assist with registering diploma, degree, and master's engineers with the ERB to enable them to practice in Botswana.</p>
-        </div>
-    </div>
-
-    <div id="modal13" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal13')">&times;</span>
-            <h2>Transportation</h2>
-            <p>We offer transportation services for employees, ensuring safe transit to and from the workplace.</p>
-        </div>
-    </div>
-
-    <div id="modal14" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal14')">&times;</span>
-            <h2>VISAS Applications</h2>
-            <p>We handle visa applications for applicants from countries requiring visas for Botswana entry.</p>
-        </div>
-    </div>
-
-    <div id="modal15" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal15')">&times;</span>
-            <h2>Exemptions Application</h2>
-            <p>We assist with exemptions for positions exempt from the standard permit application process, such as some investors.</p>
-        </div>
-    </div>
-
-    <div id="modal16" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal16')">&times;</span>
-            <h2>Waivers Issuing</h2>
-            <p>We help issue waivers to individuals qualifying for residence or work permits in Botswana.</p>
-        </div>
+        <h2>19. Botswana Qualification Authority (BQA)</h2>
+        <p>We assist with certificate evaluations for employment purposes.</p>
+        <span class="read-more" onclick="openModal('modal19')">Read More</span>
     </div>
 
     <footer>
         <p>&copy; 2024 Trolex Investment. All Rights Reserved.</p>
     </footer>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Immigration Application Services</h2>
+            <p>We assist with various immigration applications, such as permanent residency.</p>
+        </div>
+    </div>
+
+    <div id="modal17" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal17')">&times;</span>
+            <h2>Short-Term Permits</h2>
+            <p>This service covers permits ranging from:</p>
+            <ul>
+                <li>One (1) day to fourteen (14) days.</li>
+                <li>Fourteen (14) days to three (3) months.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal18" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal18')">&times;</span>
+            <h2>Long-Term Permits</h2>
+            <p>This service provides permits for durations ranging from four (4) months to five (5) years.</p>
+            <p>These are typically for foreigners employed by local companies or those setting up operations in Botswana.</p>
+        </div>
+    </div>
+
+    <div id="modal19" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal19')">&times;</span>
+            <h2>Botswana Qualification Authority (BQA)</h2>
+            <p>We assist with the evaluation of certificates for immigrants seeking employment in Botswana, especially those who studied abroad.</p>
+        </div>
+    </div>
 
     <script>
         function openModal(modalId) {
@@ -292,6 +247,5 @@
             });
         }
     </script>
-
 </body>
 </html>
